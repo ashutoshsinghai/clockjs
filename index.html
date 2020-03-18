@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="theme-color" content="#000000" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script type="text/javascript" src="https://as12.ml/clockjs1/clock.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://as12.ml/clockjs1/clock.css">
+	<style type="text/css">
+	*{
+	    padding:0;
+	    margin:0;
+	}
+		#cc{
+			height: 100vh;
+			width: 100vw;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		</style>
+</head>
+<body>
+	<div id="flash" style="position: absolute;background:black;z-index:10;width: 100vw;height: 100vh;display: flex;justify-content: center;align-items: center;">
+		<button onclick="document.getElementById('flash').style.opacity = '0'">Click here</button>
+	</div>
+	<div id="cc">
+	</div>
+	<script type="text/javascript">
+		window.addEventListener('load',()=>{
+			var d = new Clock({target:'#cc'})
+})
+	</script>
+</body>
+</html>
