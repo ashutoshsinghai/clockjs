@@ -31,20 +31,20 @@ Can be included in any existing project
     ```
  4. Your setup for the clock is ready
  5. You can use the following functions to give your clock custom styline and scaling
-    ### scale(number)
+    ### scale(Number)
     > Allowed values - int,float<br>
       eg. clock.scale(2)
-    ### shape(string)
+    ### shape(String)
     > Allowed values - "circle", "square", "rounded"<br>
       eg. clock.shape("square")
-    ### setOuterBack(string)
+    ### setOuterBackground(String)
     > Allowed values - any color or hex code string <br>
       eg. clock.setOuterBackground("blue")
           clock.setOuterBackground("#ffffff")//white
-    ### style(number)
+    ### style(Number)
     > Allowed values - 0,1<br>
       eg. clock.style(1)
-    ### options(object)
+    ### options(Object)
     > Allowed values - all the javascript style properties and vlues to change css<br>
       eg. 
       ```
@@ -56,8 +56,8 @@ Can be included in any existing project
       })
       ```
       
-      ### second(object)
-      `to change the properties of the seconds hook`
+      ### second(Object)
+      `to change the properties of the seconds hand`
     > Allowed values - all the javascript style properties and vlues to change css<br>
       eg. 
       ```
